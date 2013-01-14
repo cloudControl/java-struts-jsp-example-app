@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+
+	<display-name>CloudControl Spring Sample</display-name>
+
+	<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.FilterDispatcher</filter-class>
+		<init-param>
+			<param-name>actionPackages</param-name>
+			<param-value>com.cloudcontrolled.sample.struts</param-value>
+		</init-param>
+	</filter>
+	<!-- <servlet> -->
+	<!-- <servlet-name>strutsSample</servlet-name> -->
+	<!-- <servlet-class>org.apache.struts.action.ActionServlet</servlet-class> -->
+	<!-- <init-param> -->
+	<!-- <param-name>config</param-name> -->
+	<!-- <param-value>/WEB-INF/struts-config.xml</param-value> -->
+	<!-- </init-param> -->
+	<!-- <load-on-startup>1</load-on-startup> -->
+	<!-- </servlet> -->
+
+	<!-- <servlet-mapping> -->
+	<!-- <servlet-name>strutsSample</servlet-name> -->
+	<!-- <url-pattern>/*</url-pattern> -->
+	<!-- </servlet-mapping> -->
+</web-app>

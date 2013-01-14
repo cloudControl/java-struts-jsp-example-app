@@ -1,0 +1,8 @@
+target/classes
+target/generated-sources
+target/maven-archiver
+target/sample-spring-0.0.1-SNAPSHOT
+target/surefire
+target/test-classes
+src/
+pom.xml
